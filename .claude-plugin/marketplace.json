@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "design-constraints",
+  "description": "A Claude skill that designs UI by handing the model explicit constraints instead of letting it guess.",
+  "owner": {
+    "name": "Adam Perlis"
+  },
+  "plugins": [
+    {
+      "name": "design-constraints",
+      "description": "Design UI by handing the model explicit spatial and typographic constraints instead of letting it guess. Includes the failure modes that show up when applying them for real.",
+      "source": "./",
+      "category": "development",
+      "homepage": "https://github.com/adamperlis/design-constraints"
+    }
+  ]
+}

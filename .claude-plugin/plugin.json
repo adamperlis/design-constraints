@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "design-constraints",
+  "version": "1.0.0",
+  "description": "Design UI by handing the model explicit spatial and typographic constraints instead of letting it guess.",
+  "author": {
+    "name": "Adam Perlis"
+  },
+  "homepage": "https://github.com/adamperlis/design-constraints",
+  "license": "MIT",
+  "keywords": ["design", "ui", "design-system", "typography", "spacing", "css"]
+}

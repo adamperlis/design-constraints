@@ -33,12 +33,30 @@ review none of them.
 
 ## Install
 
+Any one of these. All three install the same skill.
+
+**Agent Skills CLI** — one line, no Claude Code required:
+
 ```bash
-git clone https://github.com/<you>/design-constraints.git ~/.claude/skills/design-constraints
+npx skills add adamperlis/design-constraints
 ```
 
-Claude Code picks it up automatically. Invoke with `/design-constraints`, or let
-it trigger on its own when you ask to build or restyle an interface.
+**Claude Code plugin** — versioned, updates with `claude plugin update`:
+
+```bash
+claude plugin marketplace add adamperlis/design-constraints
+claude plugin install design-constraints@design-constraints
+```
+
+**Manual** — clone straight into your skills directory:
+
+```bash
+git clone https://github.com/adamperlis/design-constraints.git \
+  ~/.claude/skills/design-constraints
+```
+
+Then invoke with `/design-constraints`, or let it trigger on its own when you ask
+to build or restyle an interface.
 
 ## What's in it
 
